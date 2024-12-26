@@ -25,4 +25,4 @@ input_df = pd.DataFrame([input_data], columns = all_columns).fillna(0)
 
 if st.button('Предсказать погоду'):
   prediction = model.predict(input_df)
-  st.success(f'Предположительная погода: ${prediction[0]:.2f}')
+  st.success(f'Предположительная погода: ${prediction[0]:}')
