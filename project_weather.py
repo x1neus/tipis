@@ -15,9 +15,9 @@ temp_min = st.number_input('Минимальная температура', min_
 wind = st.number_input('Ветер', min_value = 0.4, max_value = 9.5, value = 2.0, step = 0.1)
 
 input_data = {
-  'precipitation': precipitation
-  'temp_max': temp_max
-  'temp_min': temp_min
+  'precipitation': precipitation,
+  'temp_max': temp_max,
+  'temp_min': temp_min,
   'wind': wind
 }
 
